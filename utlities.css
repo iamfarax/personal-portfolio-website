@@ -1,0 +1,100 @@
+ @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato:ital,wght@1,100&family=Work+Sans:wght@100&display=swap');
+
+
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .text-align {
+     text-align: center;
+ }
+
+ .l-font {
+     font-family: 'Lato', sans-serif;
+ }
+
+ .burger {
+     cursor: pointer;
+     position: absolute;
+     top: 7%;
+     left: 3%;
+     display: none;
+ }
+
+ .line {
+     background-color: white;
+     height: 3px;
+     width: 25px;
+     margin: 5px 5px;
+ }
+
+ @media only screen and (max-width:700px) {
+     .navbar {
+         flex-direction: column;
+     }
+
+     .nav-list {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         display: flex;
+     }
+
+     .logo {
+         margin-top: 5px;
+     }
+
+     .h-nav-resp {
+         height: 8vh;
+     }
+
+     .v-nav-resp {
+         opacity: 0;
+     }
+
+     .burger {
+         display: block;
+     }
+
+     .profile-info {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         width: auto;
+     }
+
+     .hire-button {
+         margin: 15px 0;
+     }
+
+     .section-2 {
+         width: 90%;
+         margin: 15px 19px;
+     }
+
+     .card-section {
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .card-item {
+         width: 100%;
+         margin: 12px 0px;
+     }
+
+     .skill-form {
+         width: 80%;
+     }
+
+     .footer {
+         flex-direction: column;
+         justify-content: space-around;
+     }
+ }
